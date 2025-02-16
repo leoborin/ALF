@@ -190,7 +190,7 @@ def DTQPlaca():
     Data_inicio = data_inicio_formatada
     Data_fim = data_final_formatada
     es = Elasticsearch(
-        "https://vpc-rumo-elastic-bnuz2l5d67om2pql6wzb2bz4oy.us-east-1.es.amazonaws.com:443")
+        "XXXXXXXX")
     print(data_inicio_formatada)
     print(data_final_formatada)
     # Successful response!
@@ -335,7 +335,7 @@ def DTQPlaca():
 
     # ------------------------------------------------ Codigo Placa
         es = Elasticsearch(
-            "https://vpc-rumo-elastic-bnuz2l5d67om2pql6wzb2bz4oy.us-east-1.es.amazonaws.com:443")
+            "xxxxxxx")
 
         # Successful response!
         es.info()
@@ -432,7 +432,7 @@ def DTQPanel():
 
     """
     #------------------------------------------------ Codigo Placa
-    es = Elasticsearch("https://vpc-rumo-elastic-bnuz2l5d67om2pql6wzb2bz4oy.us-east-1.es.amazonaws.com:443")
+    es = Elasticsearch("xxxxxxx")
 
     # Successful response!
     es.info()
@@ -533,7 +533,7 @@ def DTQPanel():
     Data_inicio = data_inicio_formatada
     Data_fim = data_final_formatada
     es = Elasticsearch(
-        "https://vpc-rumo-elastic-bnuz2l5d67om2pql6wzb2bz4oy.us-east-1.es.amazonaws.com:443")
+        "xxxxxxx")
     print(data_inicio_formatada)
     print(data_final_formatada)
     # Successful response!
@@ -1238,7 +1238,7 @@ def plot_grafico1():
 
             # Create the client instance
             es = Elasticsearch(
-                "https://vpc-rumo-elastic-bnuz2l5d67om2pql6wzb2bz4oy.us-east-1.es.amazonaws.com:443")
+                "xxxxxxx")
 
             # Successful response!
             es.info()
@@ -1951,7 +1951,7 @@ def Localizar_Passagem():
 
             # Create the client instance
             es = Elasticsearch(
-                "https://vpc-rumo-elastic-bnuz2l5d67om2pql6wzb2bz4oy.us-east-1.es.amazonaws.com:443")
+                "xxxxxxx")
 
             # Successful response!
             es.info()
@@ -2183,7 +2183,7 @@ def Achar_pontos():
         placabusca = entrada_equipamento.get()
     # Create the client instance
         es = Elasticsearch(
-            "https://vpc-rumo-elastic-bnuz2l5d67om2pql6wzb2bz4oy.us-east-1.es.amazonaws.com:443")
+            "xxxxxxx")
 
     # Successful response!
         es.info()
@@ -2328,7 +2328,7 @@ def Manual():
 
     # Create the client instance
     es = Elasticsearch(
-        "https://vpc-rumo-elastic-bnuz2l5d67om2pql6wzb2bz4oy.us-east-1.es.amazonaws.com:443")
+        "xxxxxxx")
 
     # Successful response!
     es.info()
@@ -2585,7 +2585,7 @@ def Manual2():
 
                 # Create the client instance
                 es = Elasticsearch(
-                    "https://vpc-rumo-elastic-bnuz2l5d67om2pql6wzb2bz4oy.us-east-1.es.amazonaws.com:443")
+                    "xxxxxxx")
 
                 # Successful response!
                 es.info()
@@ -2897,7 +2897,7 @@ def Manual2():
 
                 # Create the client instance
                 es = Elasticsearch(
-                    "https://vpc-rumo-elastic-bnuz2l5d67om2pql6wzb2bz4oy.us-east-1.es.amazonaws.com:443")
+                    "xxxxxxx")
 
                 # Successful response!
                 es.info()
@@ -3609,7 +3609,7 @@ def open_form_screen():  # Salvar Análise
 
         # Create the client instance
         es = Elasticsearch(
-            "https://vpc-rumo-elastic-bnuz2l5d67om2pql6wzb2bz4oy.us-east-1.es.amazonaws.com:443")
+            "xxxxxxx")
 
         # Configurações de autenticação e URL do SharePoint
         client_id = '9db74ea9-5685-4810-8e73-b257df502805'
